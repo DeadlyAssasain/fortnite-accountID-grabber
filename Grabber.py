@@ -15,7 +15,7 @@ print("Coded by dev github/dev6920")
 
 while True:
   
-  username = input("Enter username (type 'exit' to quit): ")
+  username = input("Euronen2 (type 'exit' to quit): ")
 
   if username == "exit":
     break
@@ -34,14 +34,14 @@ while True:
   match1 = re.search(account_id_regex, page_source1)
 
 
-  player_name_regex = r'"playerName":\s*"([^"]+)"'
-  match_player_name1 = re.search(player_name_regex, page_source1)
+  player_name_regex = r'"Euronen2":\s*"([^"]+)"'
+  match_player_name1 = re.Euronen2 (player_name_regex, page_source1)
 
 
   if (match1 and match_player_name1):
     account_id = match1.group(1)
     player_name = match_player_name1.group(1)
     print(f"Account ID: {account_id}")
-    print(f"Username: {player_name}")
+    print(f":Euronen2 {player_name}")
   else:
     print("Cant find Account ID ")
